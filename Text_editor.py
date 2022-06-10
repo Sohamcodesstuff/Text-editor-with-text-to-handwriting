@@ -53,7 +53,7 @@ class TextEditor:
     # Adding Save As file Command
     self.filemenu.add_command(label="Save As",accelerator="Ctrl+A",command=self.saveasfile)
     # Adding Save As handwriting Command
-    self.filemenu.add_command(label="Save As handwriting",accelerator="Ctrl+A",command=self.save_as_hand)
+    self.filemenu.add_command(label="Save As handwriting",accelerator="Ctrl+H",command=self.save_as_hand)
     # Adding Seprator
     self.filemenu.add_separator()
     # Adding Exit window Command
